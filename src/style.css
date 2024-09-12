@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    color: white;
+    background-color: blue;
+    cursor: pointer
+ 
+
+}
+
+.btn:hover {
+    background-color: blueviolet
+}
+
+
+/* src/style.css */
+
+.bubble {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 12px;
+    max-width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  .user-bubble {
+    background-color: #1d4ed8;
+    color: white;
+    text-align: left;
+    align-self: flex-end;
+  }
+  
+  .bot-bubble {
+    background-color: #e5e7eb;
+    color: #4b5563;
+    text-align: left;
+    align-self: flex-start;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
